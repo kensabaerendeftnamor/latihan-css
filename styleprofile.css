@@ -1,16 +1,98 @@
 
-body {
-    background-color: #e5c298;
-    font-family: Arial, sans-serif;
-    line-height: 1.6em;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-.red-text {
-    color: red;
+header {
+  background: #c7a07a;
+  color: white;
+  padding: 15px 0;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+header h1 {
+  font-size: 18px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  background: #f2f2f2;
+  padding: 40px 0;
+}
+
+.profile .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.profile .photo {
+  flex: 1;
+}
+
+.profile .photo img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #ddd;
+}
+
+.profile .description {
+  flex: 2;
+  padding-left: 30px;
+}
+
+.profile .description h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.profile .description p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+
+.contact {
+  padding: 30px 0;
+}
+
+.contact .container {
+  width: 90%;
+  margin: auto;
+}
+
+.contact h3 {
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin-bottom: 8px;
+}
+
+.contact a {
+  color: #c7a07a;
+  text-decoration: none;
+}
