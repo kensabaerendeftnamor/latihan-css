@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Komentar</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="comment-container">
+    <h2>Form Komentar</h2>
+    <form>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="nama">Nama :</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="kategori">Kategori Pertanyaan :</label>
+      <select id="kategori" name="kategori" required>
+        <option value="umum">Umum</option>
+        <option value="teknis">Teknis</option>
+        <option value="saran">Saran</option>
+      </select>
+
+      <label for="komentar">Komentar :</label>
+      <textarea id="komentar" name="komentar" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
