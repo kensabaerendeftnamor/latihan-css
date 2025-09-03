@@ -1,0 +1,16 @@
+
+body {
+    background-color: #e5c298;
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+}
+
+.red-text {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
